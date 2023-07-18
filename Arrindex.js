@@ -70,5 +70,8 @@
 // let arr = [1,2,3,4,5,9,7]
 // console.log(arr[arr.length -1]);
 
+let arr = ["anwar","aarip","rustam","saddam","saraaj","shivraj"]
+ console.log(arr[arr.length -1]);
+
 
 
