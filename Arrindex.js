@@ -44,7 +44,7 @@
 // console.log(sumOfEven);
 
 
-//5. Array me kitne numbers aise hai jo 100 se bde hai 
+//9. Array me kitne numbers aise hai jo 100 se bde hai 
 // let arr = [1,2,333,121,132,143,153,545,111,22,332,33,22,77]
 // for(let i = 0; i < arr.length; i++){
 //     if(arr[i] > 100){
