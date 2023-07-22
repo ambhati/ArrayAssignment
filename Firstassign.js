@@ -70,8 +70,29 @@
 // let arr = [1,2,3,4,5,9,7]
 // console.log(arr[arr.length -1]);
 
-let arr = ["anwar","aarip","rustam","saddam","saraaj","shivraj"]
- console.log(arr[arr.length -1]);
+// let arr = ["anwar","aarip","rustam","saddam","saraaj","shivraj"]
+//  console.log(arr[arr.length -1]);
 
+// 5. Array numbers ka. Maximum number btana hai 
+
+// let arr = [1, 2, 30, 4, 5];
+// let max = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > max) {
+//     max = arr[i];
+//   }
+// }
+// console.log(max);
+
+// 6. Array numbers ka. Minimum number btana hai 
+
+// let arr = [1, 2, 30, 0, -1, 4, 5];
+// let min = arr[0];
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] < min) {
+//     min = arr[i];
+//   }
+// }
+// console.log(min);
 
 
