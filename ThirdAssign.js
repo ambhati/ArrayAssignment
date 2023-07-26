@@ -84,12 +84,13 @@
 //     return para % 5 === 0 && para < 10
 // })
 // console.log(ans);
+// let arr = [5,4,6,7,8]
+// let ans = arr.sort()
+// console.log(ans);
 
-
-
-
-
-
+// let arr = ["anwar","mohammad","rustam","hello"]
+// let ans = arr.sort()
+// console.log(ans);
 
 
 
