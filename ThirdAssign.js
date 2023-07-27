@@ -93,5 +93,21 @@
 // console.log(ans);
 
 
+//sort mathod accending order
+// let arr = [2,3,1,55,43,23,5,6]
+// let ans = arr.sort((a,b)=>{
+//     return a - b
+// })
+// console.log(ans);
+
+//sort mathod desending order
+// let arr = [2,3,1,55,43,23,5,6]
+// let ans = arr.sort((a,b)=>{
+//     return  b - a
+// })
+// console.log(ans);
+
+
+
 
 
