@@ -242,6 +242,18 @@
 //33. 
 
 
+// let socre = [
+//     {goals:22},
+//     {goals:11}
+// ]
+// let final = socre.reduce((pre,curr)=>{
+//     return pre + socre.goals,0
+// })
+// console.log(final);
+
+
+
+
 
 
 
