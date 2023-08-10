@@ -156,5 +156,27 @@
 // console.log(ans);
 
 
+// 14. Given an array of numbers, use map, filter, and reduce to return the sum of 
+// all the odd numbers multiplied by 3
+
+// let arr = [1,2,3,4,5,6,7,8,9]
+// let ans = arr.filter((odd) => odd % 2 === 1)
+// // console.log(ans);
+// .map((multiple) => multiple * 3)
+// // console.log(ans);
+// .reduce((total,multiple) => total + multiple , 0)
+// console.log(ans);
+
+
+// 15. Given a string, reverse the order of the words in the string. For example, 
+// "the quick brown fox" becomes "fox brown quick the".
+
+// let str = "the quick brown fox"
+// let strsplit = str.split(" ")
+// console.log(strsplit);
+// let strReverse = strsplit.reverse()
+// console.log(strReverse);
+
+
 
 
