@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>js</title>
+</head>
+<body>
+  <p id="question">What is the capital of rajasthan</p>
+  person one <input type="text" id="one" value="" required ><br>
+  person second<input type="text" id="two" value="" required><br>
+  person third<input type="text" id="three" value="" required><br>
+  person fourth<input type="text" id="four" value="" required><br>
+  <button id="checkButton" onclick="check()">check</button>
+  
+  <script>
+    // let question = document.getElementById('question');
+    
+   function check() {
+    let oneInput = document.getElementById("one").value.toLowerCase() 
+    let secondInput = document.getElementById("two").value.toLowerCase()
+    let thirdInput = document.getElementById("three").value.toLowerCase() 
+    let fourthInput = document.getElementById("four").value.toLowerCase()
+    let checkButton = document.getElementById('checkButton');
+    let answer = "jaipur"
+
+
+   if( oneInput=== answer){
+    alert("person one have win the game")
+   }
+   else if(secondInput === answer){
+    alert("person two have win the game")
+   }
+   else if(thirdInput=== answer){
+    alert("person three have win the game")
+   }
+   else if(fourthInput === answer){
+    alert("person four have win the game")
+   }
+   else{
+    alert("sorry")
+   }
+    };
+  </script>
+</body>
+</html>

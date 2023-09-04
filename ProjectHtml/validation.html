@@ -47,17 +47,14 @@
 <body >
 
     <div class="container">
-        <h1>Passport Form</h1>
+        <h1>Login Form</h1>
         <form  onsubmit="return validateForm()">
-            <input type="text"  placeholder="FirstName" id="FirstName" ><br>
-            <p class="Error" id="firstnameerror"></p>
-            <input type="text"  placeholder="LastName" id="LastName" ><br>
-            <p class="Error" id="lastnameerror"></p>
+            <input type="text"  placeholder="UserName" id="username" ><br>
+            <p class="Error" id="usererror"></p>
             <input type="email" placeholder="Email" id="email"><br>
             <p class="Error" id="emailerror"></p>
-            <input type="date" placeholder="DOB" id="DOB" ><br> 
-            <p class="Error" id="doberror"></p>
-
+            <input type="password" placeholder="password" id="password" ><br> 
+            <p class="Error" id="passerror"></p>
             <input type="submit" class="">
             
         <!-- <input type="text" name="fname" required> -->
@@ -65,37 +62,23 @@
     </div>
 
     <script >
-        let FirstName = document.getElementById("FirstName")
-        let LastName = document.getElementById("LastName")
+        let userName = document.getElementById("username")
+        let password = document.getElementById("password")
         let email = document.getElementById("email")
-        let dob = document.getElementById("DOB")
         // console.log(userName,password);
         let flag = 1
 
             function validateForm(){
-                if(!FirstName.value){
-                    document.getElementById("firstnameerror").innerHTML = "FirstName is required"
+                if(!userName.value){
+                    document.getElementById("usererror").innerHTML = "UserName is required"
                     flag = 0
-                }else if(FirstName.value.length < 3){
-                    document.getElementById("firstnameerror").innerHTML = "FirstName is required min 3 char"
-                    flag = 0
-                
-                }
-                else{
-                  document.getElementById("firstnameerror").innerHTML = "";
-                  flag = 1
-                }
-
-                if(!LastName.value){
-                    document.getElementById("lastnameerror").innerHTML = "LastName is required"
-                    flag = 0
-                }else if(LastName.value.length < 3){
-                    document.getElementById("lastnameerror").innerHTML = "LastName is required min 3 char"
+                }else if(userName.value.length < 3){
+                    document.getElementById("usererror").innerHTML = "UserName is required min 3 char"
                     flag = 0
                 
                 }
                 else{
-                  document.getElementById("lastnameerror").innerHTML = "";
+                  document.getElementById("usererror").innerHTML = "";
                   flag = 1
                 }
 
@@ -107,11 +90,11 @@
                     flag = 1
                 }
               
-                if(!dob.value ){
-                    document.getElementById("doberror").innerHTML = "Date of Birth is required"
+                if(!password.value ){
+                    document.getElementById("passerror").innerHTML = "Password is required"
                     flag = 0
                 }else{
-                     document.getElementById("doberror").innerHTML = ""
+                     document.getElementById("passerror").innerHTML = ""
                      flag = 1
                 }
                 
